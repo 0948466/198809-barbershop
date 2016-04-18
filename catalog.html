@@ -34,88 +34,91 @@
                <li class="current-breadcrumbs">Средства для ухода</li>
             </ul>       
         </nav>
+
+        <div class="side-left">
+            <form class="filter-form" action="https://echo.htmlacademy.ru" method="post">
+                    <section class="producers">
+                        <h2>Производители:</h2>
+                        <ul>
+                            <li><label><input type="checkbox" name="baxer-of-califonia" checked> Baxer of califonia</label></li>
+                            <li><label><input type="checkbox" name="mr-natty"> Mr Natty</label></li>
+                            <li><label><input type="checkbox" name="suavecito" checked> Suavecito</label></li>
+                            <li><label><input type="checkbox" name="malin-goetzow"> Malin+Goetz</label></li>
+                            <li><label><input type="checkbox" name="murray's"> Murray's</label></li>
+                            <li><label><input type="checkbox" name="american-crew" checked> American crew</label></li>
+                        </ul>    
+                    </section>
+                    <section class="product-groups">
+                        <h2>Группы товаров:</h2>
+                        <ul>
+                            <li><label><input type="radio" name="show" value="Бритвенные принадлежности"> Бритвенные принадлежности</label></li>
+                            <li><label><input type="radio" name="show" value="Средства для ухода" checked> Средства для ухода</label></li>
+                            <li><label><input type="radio" name="show" value="Аксессуары"> Аксессуары</label></li>
+                        </ul>    
+                    </section>            
+                    <button type="submit" class="show">Показать</button>
+                </form>
+        </div>
         
-<article class="filter">
-    <form class="filter-form" action="https://echo.htmlacademy.ru" method="post">
-            <section class="producers">
-                <h2>Производители:</h2>
-                <ul>
-                    <li><label><input type="checkbox" name="baxter-of-califonia" checked> Baxer of califonia</label></li>
-                    <li><label><input type="checkbox" name="mr-natty"> Mr Natty</label></li>
-                    <li><label><input type="checkbox" name="suavecito" checked> Suavecito</label></li>
-                    <li><label><input type="checkbox" name="malin-goetz"> Malin+Goetz</label></li>
-                    <li><label><input type="checkbox" name="murray's"> Murray's</label></li>
-                    <li><label><input type="checkbox" name="american-crew" checked> American crew</label></li>
-                </ul>    
-            </section>
-            <section class="product-groups">
-                <h2>Группы товаров:</h2>
-                <ul>
-                    <li><label><input type="radio" name="бритвенные принадлежности"> Бритвенные принадлежности</label></li>
-                    <li><label><input type="radio" name="средства для ухода" checked> Средства для ухода</label></li>
-                    <li><label><input type="radio" name="аксессуары"> Аксессуары</label></li>
-                </ul>    
-            </section>            
-            <button class="show">Показать</button>
-        </form>
-</article>
-        
-        <article class="catalog">
-            <article class="product">
-                <img src="dd" width="200" height="60" alt="Набор для путешествий">
-                <h3>Набор для путешествий «Baxer of califonia»</h3>
-                <div class="price">
-                    <p>2 900 руб.</p>
-                    <a class="btn-buy">Купить</a>
-                </div> 
-            </article>
-            <article class="product">
-                <img src="dd" width="200" height="60" alt="Увлажняющий кондиционер">
-                <h3>Увлажняющий кондиционер «Baxer of califonia»</h3>
-                <div class="price">
-                    <p>750 руб.</p>
-                    <a class="btn-buy">Купить</a>
-                </div> 
-            </article>
-            <article class="product">
-               <img src="dd" width="200" height="60" alt="Гель для волос">
-               <h3>Гель для волос «Suavecito»</h3>
-                <div class="price">
-                    <p>290 руб.</p>
-                    <a class="btn-buy">Купить</a>
-                </div> 
-            </article>
-            <article class="product">
-                <img src="dd" width="200" height="60" alt="Глина для укладки волос">
-                <h3>Глина для укладки волос «American crew»</h3>
-                <div class="price">
-                    <p>500 руб.</p>
-                    <a class="btn-buy">Купить</a>
-                </div> 
-            </article>
-            <article class="product">
-                <img src="dd" width="200" height="60" alt="Гель для волос">
-                <h3>Гель для волос «American crew»</h3>
-                <div class="price">
-                    <p>300 руб.</p>
-                    <a class="btn-buy">Купить</a>
-                </div> 
-            </article>
-            <article class="product">
-                <img src="dd" width="200" height="60" alt="Набор для бритья">
-                <h3>Набор для бритья «Baxer of califonia»</h3>
-                <div class="price">
-                    <p>3 900 руб.</p>                
-                    <a class="btn-buy">Купить</a>
-                </div>    
-            </article>
+        <div class="side-right">
+            <div class="catalog">
+                <article class="product">
+                    <a href="dd"><img src="dd" width="200" height="60" alt="Набор для путешествий"></a>
+                    <h3>Набор для путешествий «Baxer of califonia»</h3>
+                    <div class="price">
+                        <span>2 900 руб.</span>
+                        <a class="btn-buy">Купить</a>
+                    </div> 
+                </article>
+                <article class="product">
+                    <a href="dd"><img src="dd" width="200" height="60" alt="Увлажняющий кондиционер"></a>
+                    <h3>Увлажняющий кондиционер «Baxer of califonia»</h3>
+                    <div class="price">
+                        <span>750 руб.</span>
+                        <a class="btn-buy">Купить</a>
+                    </div> 
+                </article>
+                <article class="product">
+                   <a href="dd"><img src="dd" width="200" height="60" alt="Гель для волос"></a>
+                   <h3>Гель для волос «Suavecito»</h3>
+                    <div class="price">
+                        <span>290 руб.</span>
+                        <a class="btn-buy">Купить</a>
+                    </div> 
+                </article>
+                <article class="product">
+                    <a href="dd"><img src="dd" width="200" height="60" alt="Глина для укладки волос"></a>
+                    <h3>Глина для укладки волос «American crew»</h3>
+                    <div class="price">
+                        <span>500 руб.</span>
+                        <a class="btn-buy">Купить</a>
+                    </div> 
+                </article>
+                <article class="product">
+                    <a href="dd"><img src="dd" width="200" height="60" alt="Гель для волос"></a>
+                    <h3>Гель для волос «American crew»</h3>
+                    <div class="price">
+                        <span>300 руб.</span>
+                        <a class="btn-buy">Купить</a>
+                    </div> 
+                </article>
+                <article class="product">
+                    <a href="dd"><img src="dd" width="200" height="60" alt="Набор для бритья"></a>
+                    <h3>Набор для бритья «Baxer of califonia»</h3>
+                    <div class="price">
+                        <span>3 900 руб.</span>                
+                        <a class="btn-buy">Купить</a>
+                    </div>    
+                </article>
+            </div>    
             
-            <a class="btn-page" href="dd1">1</a>
-            <a class="btn-page current" href="dd2">2</a>
-            <a class="btn-page" href="dd3">3</a>
-            <a class="btn-page" href="dd4">4</a>
-            
-    </article>        
+            <div class="paginator">
+                <a class="btn-page" href="dd1">1</a>
+                <a class="btn-page current" href="dd2">2</a>
+                <a class="btn-page" href="dd3">3</a>
+                <a class="btn-page" href="dd4">4</a>
+            </div>
+        </div>        
     </main>
       
     <footer class="main-footer">
