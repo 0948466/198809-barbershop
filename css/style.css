@@ -35,6 +35,105 @@ body {
     float: right;
 }
 
+.breadcrumbs {
+    margin-bottom: 57px;
+}
+
+.side-left {
+    float: left;
+}
+
+.gallery-content {
+    width: 460px;
+}
+
+.gallery-content a {
+    margin-right: 20px;
+    margin-left:-4px;
+}
+
+.gallery-content a:last-child {
+    margin-right: 0px;    
+}
+
+.filter-form {
+    width: 220px;
+    margin-right: 20px;
+}
+
+.producers {
+    margin-bottom: 52px;
+}
+
+.product-groups {
+    margin-bottom: 50px;
+}
+
+.side-right {
+    float: left;
+}
+
+.description {
+    width: 380px;
+}
+
+.availability-item-number {
+    margin-bottom: 37px;
+}
+
+.availability,.item-number {
+    display:inline-block;
+}
+
+.availability {
+    margin-right: 174px;
+}
+
+.price {
+    margin-bottom: 63px;
+}
+
+.catalog {
+    width: 700px;
+    margin-bottom: 45px;
+}
+
+.product {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: -4px;
+    margin-bottom: 20px;
+}
+
+.product:nth-child(3n) {
+    margin-right: 0px;
+}
+
+.brand {
+    display:block;
+}
+
+.main-footer {
+    padding-top: 49px;
+    padding-bottom: 40px;
+}
+
+.footer-contacts {
+    float:left;
+    width:320px;
+    margin-right: 60px;
+}
+
+.footer-social {
+    float: left;
+    width: 180px;
+}
+
+.footer-copyright {
+    float: right;
+    width: 180px;
+}
+
 h1 {
     font-size: 30px;
     line-height: 42px;  
@@ -46,10 +145,17 @@ h2 {
 }
 
 .main-navigation ul li {
+    display: inline;
     font-size: 16px;
     line-height: 20px;    
+}
+
+.breadcrumbs ul li {
+    display: inline;
 }
 
 .type-product {
     text-transform: none; 
 }
+
+
